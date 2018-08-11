@@ -28,4 +28,4 @@ jobs:
       - run: git config user.email "ernsky@gmail.com" # 你的 GitHub 邮箱
       - run: git commit -m "Updated by CircleCI - `TZ='Asia/Shanghai' date`"
       # 下面填写你的 usename 和 repository  
-      - run: git push -q https://5f76cb11f3f71b096cae3161b6b6290fd8a5796f@github.com/ernsky/Recordum.git gh-pages:gh-pages.circleci
+      - run: git push -q https://${gh_token}@github.com/ernsky/Recordum.git gh-pages:gh-pages.circleci
