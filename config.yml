@@ -1,0 +1,64 @@
+title: AcyOrt
+description: A Node.js static website framework. Powered by GitHub.
+
+url: https://ernsky.com
+theme: Pavane
+
+menu:
+  docs: /docs/
+  api: /api/
+  deploy: /deploy/
+  development: /development/
+  troubleshooting: /troubleshooting/
+
+user: ernsky
+repository: Recordum
+
+scripts:
+  - nav.js
+  - category.js
+  - template.js
+  - min.js
+  - updated.js
+  - i18n.js
+plugins:
+  - acyort-toc
+
+public_dir: public
+
+authors:
+  - ernsky
+
+timezone: Asia/Shanghai
+line_numbers: false
+order: updated
+
+token: f#1dce1f5d3bfbe8de7668d8c3c867f434546e48b
+
+cache: true
+
+keywords: website,blog,github,static,issues
+
+languages:
+  zh-cn: 简体中文
+
+docs_nav:
+  Getting Started:
+    - Overview
+    - Setup
+    - Configuration
+  Basic Usage:
+    - Writing
+    - Commands
+  Customization:
+    - Permalink
+    - Themes
+    - Variables
+    - Helpers
+    - Plugins
+
+api_nav:
+  API:
+    - Overview
+    - Filter
+    - Methods
